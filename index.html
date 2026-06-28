@@ -18,55 +18,68 @@
         <li><a href="#certs">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </nav>
   </header>
 
-  <main>
-    <section id="home" class="hero">
-      <h1>Hi, I'm <span>Gavin Dimaria</span></h1>
-      <p>Frontend Developer</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </section>
+  <section id="home" class="hero">
+    <h1>Hi, I'm <span>Gavin Dimaria</span></h1>
+    <p>Frontend Developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
 
-    <section id="about" class="about">
-      <h2>About Me</h2>
-      <p>Hi, I'm Gavin Dimaria, a self-taught web developer passionate about creating responsive and interactive websites using HTML, CSS, and JavaScript. I enjoy solving problems, learning new technologies, and building projects that challenge my skills. Outside of coding, I'm a huge Star Wars fan, I enjoy making people smile through creativity and teamwork, and I also have an interest in politics!</p>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Gavin Dimaria, a self-taught web developer passionate about creating responsive and interactive websites. Outside of coding, I'm a huge Star Wars fan, I enjoy making people smile through creativity, and I have an interest in politics!</p>
+  </section>
 
-      <div class="contact-details">
-        <h3>Contact Information</h3>
-        <p><strong>Email:</strong> gdimaria2126011907@gmail.com</p>
-        <p><strong>Phone:</strong> 239-677-8991</p>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/gavin-dimaria-7337b5373/" target="_blank">LinkedIn</a> | 
-          <a href="https://github.com/gdimaria2126011907-ops" target="_blank">GitHub</a>
-        </div>
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Minesweeper</h3>
+        <p>A browser-based game.</p>
+        <a href="https://gdimaria2126011907-ops.github.io/Mindsweeper/" target="_blank">Play Now</a>
       </div>
-    </section>
+      <div class="project-card">
+        <h3>Flappy Bird</h3>
+        <p>A recreation of the classic game.</p>
+        <a href="https://gdimaria2126011907-ops.github.io/Flappy-Bird-/" target="_blank">Play Now</a>
+      </div>
+      <div class="project-card">
+        <h3>Spaceman</h3>
+        <p>A C# backend project.</p>
+        <a href="https://gdimaria2126011907-ops.github.io/Spaceman/" target="_blank">Play Now</a>
+      </div>
+      <div class="project-card">
+        <h3>Alien Chatbot</h3>
+        <p>An interactive Python chatbot.</p>
+        <a href="https://gdimaria2126011907-ops.github.io/alein-chatbot/" target="_blank">Play Now</a>
+      </div>
+      <div class="project-card">
+        <h3>Guessing Game</h3>
+        <p>A number guessing game.</p>
+        <a href="https://gdimaria2126011907-ops.github.io/game/" target="_blank">Play Now</a>
+      </div>
+    </div>
+  </section>
 
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Minesweeper</h3>
-          <p>A browser-based Minesweeper game.</p>
-          <a href="https://gdimaria2126011907-ops.github.io/Mindsweeper/" target="_blank" class="link-btn">Play Now</a>
-        </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <h2>Contact Me</h2>
-      <form action="mailto:gdimaria2126011907@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </main>
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:gdimaria2126011907@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br>
+      <label>Message:</label><br>
+      <textarea name="message" required></textarea><br>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
 
   <footer>
     <p>© 2026 Gavin Dimaria</p>
